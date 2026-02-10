@@ -4,9 +4,14 @@
 from __future__ import annotations
 
 from pathlib import Path
+import sys
 
 # --- Paths ---
-BASE_DIR = Path(__file__).resolve().parents[1]
+if getattr(sys, "frozen", False):
+    base = Path(getattr(sys, "_MEIPASS", Path(sys.executable).resolve().parent))
+    BASE_DIR = base
+else:
+    BASE_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE_DIR / "data"
 ASSETS_DIR = BASE_DIR / "assets"
 AUDIO_DIR = ASSETS_DIR / "audio"
