@@ -1,0 +1,16 @@
+{
+  "total_runs": 9,
+  "total_deaths": 9,
+  "total_food": 32,
+  "total_time": 173.62,
+  "total_score": 369,
+  "powerups": {
+    "speed": 6,
+    "shrink": 4,
+    "freeze": 1,
+    "shield": 2
+  },
+  "average_score": 41.0,
+  "best_score": 110,
+  "longest_snake": 11
+}

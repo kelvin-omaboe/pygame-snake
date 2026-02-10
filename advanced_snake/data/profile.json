@@ -1,0 +1,13 @@
+{
+  "selected_skin": "classic",
+  "selected_audio": "chip",
+  "unlocked_skins": [
+    "classic"
+  ],
+  "unlocked_audio": [
+    "chip"
+  ],
+  "muted": false,
+  "sfx_volume": 0.6,
+  "music_volume": 0.4
+}
